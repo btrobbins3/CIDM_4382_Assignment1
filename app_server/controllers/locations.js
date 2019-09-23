@@ -1,33 +1,33 @@
 const homelist = (req, res) => {
   res.render('locations-list',
     {
-      title: 'Loc8r - find a place to work with wifi',
+      title: 'Loc8r - Pizza for the people!',
       pageHeader: {
         title: 'Loc8r',
-        strapLine: 'Find places to work with wifi near you!'
+        strapLine: 'Pizza for the people!'
       },
-      sidebar: "Looking for wifi and a seat? Loc8r helps you find places to work when out and about. Perhaps with coffee, cake or a pint? Let Loc8r help you find the place you're looking for.",
+      sidebar: "Looking for the best pizza near you? Loc8r helps you find pizza joints without you having to waste you money to find the good ones. Let Loc8r help you find the place you're looking for.",
       locations: [
         {
-          name: 'Starcups',
-          address: '125 High Street, Reading, RG6 1PS',
-          rating: 3,
-          facilities: ['Hot drinks', 'Food', 'Premium wifi'],
-          distance: '100m'
-        },
-        {
-          name: 'Cafe Hero',
-          address: '125 High Street, Reading, RG6 1PS',
+          name: 'Mr. Gatti\'s Pizza',
+          address: '4412 S Western St, Amarillo, TX 79109',
           rating: 4,
-          facilities: ['Hot drinks', 'Food', 'Premium wifi'],
-          distance: '200m'
+          facilities: ['Pizza Bar', 'Games', 'Movie Rooms'],
+          distance: '25m'
         },
         {
-          name: 'Burger Queen',
-          address: '125 High Street, Reading, RG6 1PS',
-          rating: 2,
-          facilities: ['Food', 'Premium wifi'],
-          distance: '250m'
+          name: 'Papa John\'s Pizza',
+          address: '3415a Bell St Unit A, Amarillo, TX 79109',
+          rating: 4,
+          facilities: ['Pizza Delivery', 'Fresh Soda'],
+          distance: '20m'
+        },
+        {
+          name: 'Domino\'s Pizza',
+          address: '301 N 23rd St Ste B, Canyon, TX 79015',
+          rating: 5,
+          facilities: ['Pizza Delivery', 'Desserts', 'Fresh Soda'],
+          distance: '5m'
         }
       ]
     }
