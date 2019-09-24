@@ -9,7 +9,7 @@ legend {
 }
 
 .navbar {
-  background-color: #ad1d28;
+  background-color: #003d03;
   border-color: #911821;
 }
 
@@ -32,18 +32,18 @@ legend {
 }
 
 .card {
-  background-color: #469ea8;
+  background-color: #003D03;
   padding: 1rem;
 }
 
 .card-primary {
-  border-color: #a2ced3;
+  border-color: #003D03;
   margin-bottom: 0.5rem;
 }
 
 .banner {
   margin-top: 4em;
-  border-bottom: 1px solid #469ea8;
+  border-bottom: 1px solid #003D03;
   margin-bottom: 1.5em;
   padding-bottom: 0.5em;
 }
@@ -73,11 +73,11 @@ h4 a, h4 a:hover {
 h4 small {
   font-size: 60%;
   line-height: 200%;
-  color: #aaa;
+  color: #003d03;
 }
 
 h1 small {
-  color: #aaa;
+  color: #AD1D28;
 }
 
 .address {
@@ -102,6 +102,6 @@ a:hover {
 
 body {
   font-family: "Cabin", Arial, sans-serif;
-  color: #fff;
-  background-color: #108a93;
+  color: black;
+  background-color: #d0ce9f;
 }
